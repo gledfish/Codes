@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s1{
+            background-color: yellow;
+            padding:100px;
+            border: 100px;
+            margin: 100px;
+        }
+        /* 行内元素不支持设置宽度和高度
+           行内元素可以支持设置padding，border,margin但是垂直方向不会影响页面的布局。
+           display 用来设置元素显示的类型
+           可选值：
+                inline：设置为行内元素
+                block：将元素设置为块元素
+                inline-block：将元素设置为行内-块元素
+                table:将元素设置为表格
+                none:元素不显示
+            visibility 用来设置元素的显示的状态
+                visible(默认)：正常显示
+                hidden：隐藏，不显示(但是会保留页面位置)
+                可以设置高度和宽度，且不会独占一行 */
+        .box1{
+            width:200px;
+            height:200px;
+            background-color: #bfa;
+        }
+    </style>
+</head>
+<body>
+    <span class="s1">我是span。</span>
+    <div class="box1">
+        我是div。
+    </div>
+</body>
+</html>

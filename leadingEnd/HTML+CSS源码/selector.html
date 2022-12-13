@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 元素选择器，根据标签名来选中指定的元素 */ 
+        p{
+            color:red;
+        }
+        h1{
+            color:aqua;
+        }
+        /*  id选择器，根据元素的id属性值选中一个元素 */
+        #red{
+            color: purple;
+        }
+        /* class选择器，可以选择多个属性，可以同时为一个元素指定多个class的属性 */
+        .blue{
+            color:blue;
+        }
+        .abc{
+            color:aqua
+        }
+        /* 通配选择器 */
+        *{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1>我是标题</h1>
+    <p class = "red">少小离家老大回，</p>
+    <p class = "red">乡音无改鬓毛衰。</p>
+    <!-- class是一个标签，和id相似，但是可以重复使用 -->
+    <p class="blue abc">儿童相见不相识，</p>
+    <p class="blue">笑问客从何处来。</p>
+</body>
+</html>

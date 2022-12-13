@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            width: 800px;
+            height:200px;
+            border:10px red solid;
+        }
+        .inner{
+            width: 400px;;
+            /* 值默认是auto */
+            height:200px;
+            background-color: blueviolet;
+            /* 水平布局
+            元素的水平方向的布局：
+            一个元素在其父元素中，水平布局必须满足以下的等式
+            margin-left+
+            border-left
+            padding-left+
+            width+
+            padding-right+
+            border-right+
+            margin-right
+            = 父元素的内容区宽度
+            
+            如果不满足，则会在左边的
+            margin-right中补全（如果左边没有auto的情况）
+            width
+            margin-left
+            margin-right
+            可以设置为auto,则会调整设为auto的值
+            多个auto优先设置width
+            */
+            margin-left: 200px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+2022.12.03 21:05:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Codes\scala\.metals\lsp.trace.json or C:\Users\86185\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.03 21:05:54 INFO  logging to file D:\Codes\scala\.metals\metals.log
+2022.12.03 21:05:54 INFO  Started: Metals version 0.11.9 in workspace 'D:\Codes\scala' for client Visual Studio Code 1.73.1.
+2022.12.03 21:07:22 INFO  time: initialize in 1m27s
+2022.12.03 21:07:23 WARN  Build server is not auto-connectable.
+2022.12.03 21:07:23 WARN  no build tool detected in workspace 'D:\Codes\scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.03 21:07:23 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:11:58 INFO  no build target found for D:\Codes\scala\HelloWorld\Main.scala. Using presentation compiler with project's scala-library version: 3.2.0
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 26
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 30
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 29
+2022.12.03 21:11:58 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 35
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 36
+2022.12.03 21:11:58 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 39
+2022.12.03 21:11:58 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 42
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 40
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 43
+2022.12.03 21:11:58 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:11:58 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 46
+12月 03, 2022 9:11:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 49
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 63
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 50
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 78
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 89
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 113
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 136
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 139
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 141
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 79
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 143
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 150
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 159
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 165
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 189
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 192
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:11:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 144
+12月 03, 2022 9:11:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 213
+2022.12.03 21:11:59 INFO  shutting down Metals
+2022.12.03 21:18:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Codes\scala\.metals\lsp.trace.json or C:\Users\86185\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.03 21:18:05 INFO  logging to file D:\Codes\scala\.metals\metals.log
+2022.12.03 21:18:05 INFO  Started: Metals version 0.11.9 in workspace 'D:\Codes\scala' for client Visual Studio Code 1.73.1.
+2022.12.03 21:18:10 INFO  time: initialize in 4.83s
+2022.12.03 21:18:11 WARN  Build server is not auto-connectable.
+2022.12.03 21:18:11 WARN  no build tool detected in workspace 'D:\Codes\scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.03 21:18:11 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:18:14 INFO  no build target found for D:\Codes\scala\HelloWorld\Main.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.03 21:18:17 INFO  time: code lens generation in 4.5s
+2022.12.03 21:18:59 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:19:03 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:19:05 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:19:06 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:19:09 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.03 21:19:10 WARN  no build target for: D:\Codes\scala\HelloWorld\Main.scala
+2022.12.04 18:37:28 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Codes\scala\.metals\lsp.trace.json or C:\Users\86185\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.04 18:37:28 INFO  logging to file D:\Codes\scala\.metals\metals.log
+2022.12.04 18:37:28 INFO  Started: Metals version 0.11.9 in workspace 'D:\Codes\scala' for client Visual Studio Code 1.73.1.
+2022.12.04 18:37:33 INFO  time: initialize in 4.62s

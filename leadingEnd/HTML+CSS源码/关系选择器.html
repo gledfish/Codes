@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* 为div子元素span设置字体颜色
+       子元素选择器 */
+    div > p > span{
+        color:red;
+    }
+    /* 后代元素选择器 */
+    div span{
+        color:blue;
+    }
+    /* 兄弟元素选择器 */
+    /* 选择＋号后面的元素 */
+    p + span{
+        /* span需要紧挨者p */
+        color:cadetblue;
+    }
+    /* 选择下面所有的兄弟元素 */
+    p ~ span{
+        color:azure;
+    }
+    </style>
+</head>
+<!--  父子元素
+      祖先后代元素：直接或间接包含
+      兄弟元素-->
+<body>
+    <div>我是div
+        <p>
+            我是div中的p元素
+            <span>
+                我是p元素中的span
+            </span>
+        </p>
+        <span>
+            我是div中的span元素
+        </span>
+    </div>
+</body>
+</html>

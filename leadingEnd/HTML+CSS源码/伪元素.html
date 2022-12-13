@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 20px;
+        }
+        /* 伪元素，表示页面中一些特殊的，不真实存在的元素（特殊的位置）
+        伪元素使用::开头
+        ::first-letter 表示第一个元素
+        ::first-line 表示第一行
+        ::selection 表示给选中元素设置样式
+        ::before 表示元素的起始位置
+        ::after 表示元素的结束位置
+        before和after必须结合content属性来使用
+        */
+        p::first-letter{
+            font-size: 100px;
+        }
+        P::selection{
+            background-color: bisque;
+        }
+        div::before{
+            content:"abc";
+            color:red;
+        }/*添加的元素无法选中*/
+    </style>
+</head>
+<body>
+    <div>Hello hello hello</div>
+    <p>kdjfafnjkadafbdjkvbsdjkbksdj</p>
+</body>
+</html>

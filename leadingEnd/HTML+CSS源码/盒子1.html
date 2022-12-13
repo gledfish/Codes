@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+
+            border-width: 10px;
+            /* width可省略，默认3px（不同浏览器可能不同）
+              当设置4个值时，分别设置，上，右，下，左的宽度。
+              当设置3个值时，分别设置上，左右，下的值。
+              当设置2个值时，分别设置上下，左右的值。 */
+            border-color: aqua;
+            /* 其他属性 */
+            /* border-xxx-width(取值：top,left,right,bottom) */
+            /* border-color也可以指定特定边的颜色，用法同上
+            如果不写，默认为color的值 */
+             border-style: solid;
+    /*       solid:实线;
+             dotted:点状虚线
+             dashed:虚线
+             double 双线*/ 
+
+             /* border简写属性:通过该属性可以同时设置边框所有的相关样式，并且没有顺序要求
+             除了border之外，还有
+             border-xxx:left, right, bottom,top
+                border:10px orange solid(最常用) */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html>
