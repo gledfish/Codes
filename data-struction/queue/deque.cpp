@@ -130,12 +130,10 @@ int main(void)
 {
     dequePoint q1 = new Deque;
     createdeQue(q1);
-    cout << isEmpty(q1) << endl;
     rearEnqueue(q1, 34);
     rearEnqueue(q1, 43);
     rearEnqueue(q1, 45);
     queuePrint(q1);
-    cout << isFull(q1) << endl;
     rearDequeue(q1);
     queuePrint(q1);
     return 0;
