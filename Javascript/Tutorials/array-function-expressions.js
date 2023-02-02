@@ -12,7 +12,7 @@ console.log(materials.map(material => material.length));
 a => a + a;
 (a, b) => a + b;
 a => {
-    const c = a + b;
+    let c = a + b;
     return c + a + b;
 }
 //name
