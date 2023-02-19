@@ -9,7 +9,9 @@ typedef struct list
     int data;
     struct list *next;
 } node, *List;
+//Node
 
+//创建新结点
 void Create(List *p, int n)
 {
     List tail, q;

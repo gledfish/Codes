@@ -2,6 +2,10 @@
 
 using namespace std;
 
+
 int main(void){
-    cout << "test!" << "\n";
+    int a;
+    cin >> a;
+    cout << a;
+    return 0;
 }
