@@ -63,6 +63,8 @@ int main()
 {
     List p;
     int n;
+    printf("请输入 n 值：");
+    
     scanf("%d", &n);
     Create(&p, n);
     GetOdd(p, n);

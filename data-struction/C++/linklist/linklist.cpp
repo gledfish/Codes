@@ -1,32 +1,93 @@
+/*
+指针链表
+
+*/
+
 #include <bits/stdc++.h>
+// typedef int Status;
+// typedef int ElemType;
 
 using namespace std;
 
-//创建结点结构体
+// 创建结点
 typedef struct Node
 {
     int data;
-    Node * next;
-} Node, *NodePoint;
+    Node *next;
+} Node, *LinkedList;
 
-//打印结点数据
-bool printLinklist(NodePoint np){
-    while(np){
-        cout << np -> data << endl;
-        np = np -> next;
-    }
-    return true;
+// 创建空链表
+LinkedList createEmptyLinkedList()
+{
+    LinkedList np = new Node;
+    np->next = NULL;
+    return np;
 }
-int main(void){
-    NodePoint n1 = new Node;
-    NodePoint n2 = new Node;
-    NodePoint n3 = new Node;
-    n1 -> data = 1;
-    n1 -> next = n2;
-    n2 -> data = 2;
-    n2 -> next = n3;
-    n3 -> data = 3;
-    n3 -> next = NULL;
-    printLinklist(n1);
+
+// 表头插入法创建表
+LinkedList CreateLinkedList(LinkedList l, int num)
+{
+    int count = 0;
+    cout << "请输入数据";
+    while (count != num)
+    {
+        LinkedList p = new Node;
+        if (!p)
+        {
+            cout << "创建失败";
+            return l;
+        }
+        scanf("%d", &p->data);
+        p->next = l->next;
+        l->next = p;
+        count++;
+    }
+    return l;
+}
+// 打印结点数据
+void printLinklist(LinkedList l)
+{
+    LinkedList temp = new Node;
+    temp = l;
+    while (temp)
+    {
+        cout << temp->data << endl;
+        temp = temp->next;
+    }
+}
+//查找元素
+LinkedList SearchElem(LinkedList l, int e){
+    LinkedList temp = createEmptyLinkedList();
+    temp = l;
+    while(temp){
+        if(temp ->data = e)
+            return temp;
+        temp = temp -> next;
+    }
+    cout <<"没找到元素e" <<endl;
+    return l;
+}
+//在指定元素后插入元素
+LinkedList InsertElem(LinkedList L, int i, int e){
+    //要插入的节点
+    LinkedList temp = createEmptyLinkedList();
+    temp->data = e;
+    // 之前的节点
+    LinkedList p = createEmptyLinkedList();
+    p = SearchElem(L, i);
+    if(p ->data == i){
+        p->next = temp;
+    }
+    temp -> next = L -> next;
+    L -> next = p;
+    return L;
+}
+//
+int main(void)
+{
+    LinkedList l = createEmptyLinkedList();
+    int num = 5;
+    l = CreateLinkedList(l, num);
+    printLinklist(l);
     return 0;
 }
