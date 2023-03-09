@@ -12,7 +12,7 @@
 //     输出样例 261
 
 #include <bits/stdc++.h>
-    using namespace std;
+using namespace std;
 
 typedef struct
 {
