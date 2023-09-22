@@ -22,4 +22,4 @@ map.set_global_opts(
     )
 )
 
-map.render()
+map.render("./map.html")

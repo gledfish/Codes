@@ -1,11 +1,16 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-
-int main(void){
-    int a;
-    cin >> a;
-    cout << a;
+void showNum(int num){
+    num++;
+    cout << num <<endl;
+}
+int main(void) {
+    int num = 0;
+    cout << "请输入 num 的值"<< endl;
+    cin >> num;
+    cout << num << endl;
+    showNum(num);
     return 0;
 }

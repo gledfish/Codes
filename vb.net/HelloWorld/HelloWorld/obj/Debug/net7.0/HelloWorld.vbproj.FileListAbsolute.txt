@@ -1,0 +1,14 @@
+D:\Codes\vb.net\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+D:\Codes\vb.net\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+D:\Codes\vb.net\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+D:\Codes\vb.net\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+D:\Codes\vb.net\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.vb
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.vbproj.CoreCompileInputs.cache
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+D:\Codes\vb.net\HelloWorld\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
