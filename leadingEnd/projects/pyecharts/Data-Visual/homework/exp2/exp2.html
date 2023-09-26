@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exp2</title>
+    <!-- 引入 ECharts 库 -->
+    <script src="echarts-min.js"></script>
+    <!-- 引入图表配置文件 -->
+    <script src="spiral-chart.js"></script>
+</head>
+<body>
+
+    <!-- 第二个图表容器：螺旋曲线图 -->
+    <div id="spiral-chart" style="width: 800px; height: 400px;"></div>
+
+    <script>
+        // 在页面加载完成后初始化并渲染第二个图表（螺旋曲线图）
+        document.addEventListener('DOMContentLoaded', function () {
+        var myChart2 = echarts.init(document.getElementById('spiral-chart'));
+        myChart2.setOption(option2); // 使用来自 spiral-chart.js 的配置
+        });
+    </script>
+</body>
+</html>
