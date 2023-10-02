@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <title>Dom</title>
+</head>
+<body>
+    <div id="block">
+        默认内容
+    </div>
+    <p> 默认内容 </p>
+    <p> 默认内容 </p>
+    <p> 默认内容 </p>
+    <p> 默认内容 </p>
+    <script>
+        let block = document.getElementById("block");
+        console.log(block);
+        block.textContent = "被设置的文本";
+
+        let myContents = document.getElementsByTagName('p');
+        console.log(myContents);
+        for(let i = 0; i < myContents.length; i++){
+            myContents[i].textContent = "updated"
+        }
+
+        document.querySelectorAll('p') // 更好用
+        let container = myContents.parentNode; // 获取父标签
+        let children = container.children; //获取子标签
+        
+
+    </script>
+</body>
+</html>
