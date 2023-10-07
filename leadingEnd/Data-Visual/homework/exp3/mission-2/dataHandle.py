@@ -66,13 +66,15 @@ def get_confirmed_cases_everyDay(sheet, begin_date_tuple, end_date_tuple):
     
     '''
     # 时间数据转换
-    date = datetime(begin_date_tuple[0], begin_date_tuple[1], begin_date_tuple[2])
-    end_date = datetime(end_date_tuple[0], end_date_tuple[1],end_date_tuple[2])
+    date = datetime(*begin_date_tuple)
+    end_date = datetime(*end_date_tuple)
     # 获得省份字典
     province_dict = get_province(sheet)
     # print(len(province_dict))
     # 结果字典
     data_dict_everyDay = {}
+
+
     while 1:
         # 获得某一天的确诊人数
         data_dict = get_confirmed_cases(sheet, province_dict, date, end_date)
@@ -124,4 +126,3 @@ if __name__ == "__main__":
     # tree = ET.ElementTree(root)  
 
     # tree.write('exp3/mission-2/confirmed.xml', encoding='utf-8', xml_declaration=True)
-
