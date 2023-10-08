@@ -4,9 +4,9 @@ using namespace std;
 int main(void)
 {
    int a, b;
-   cout << "请输入值";
+   cout << "请输入值" << endl;
    cin >> a >> b;
-   cout << a << b << endl;
+   cout << a << endl << b << endl;
    string s;
    getline(cin, s);
    stringstream(s) >> a;
