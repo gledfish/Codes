@@ -24,4 +24,4 @@ print(kmeans.cluster_centers_)
 # 可视化结果  
 plt.scatter(X[:, 0], X[:, 1], c=kmeans.labels_, cmap='viridis')  
 plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s=300, c='red') # 将聚类中心用红色标出  
-plt.savefig("machine-learning/src/k-means/k-means.jpg")
+plt.savefig("machine-learning/src/k-means/usage_k_means.jpg")
