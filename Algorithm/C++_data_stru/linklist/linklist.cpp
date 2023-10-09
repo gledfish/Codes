@@ -12,7 +12,7 @@ using namespace std;
 // 创建结点
 typedef struct Node
 {
-    int data;
+    int val;
     Node *next;
 } Node, *LinkedList;
 
@@ -37,7 +37,7 @@ LinkedList CreateLinkedList(LinkedList l, int num)
             cout << "创建失败";
             return l;
         }
-        scanf("%d", &p->data);
+        scanf("%d", &p->val);
         p->next = l->next;
         l->next = p;
         count++;
@@ -51,7 +51,7 @@ void printLinklist(LinkedList l)
     temp = l;
     while (temp)
     {
-        cout << temp->data << endl;
+        cout << temp->val << endl;
         temp = temp->next;
     }
 }
@@ -60,7 +60,7 @@ LinkedList SearchElem(LinkedList l, int e){
     LinkedList temp = createEmptyLinkedList();
     temp = l;
     while(temp){
-        if(temp ->data = e)
+        if(temp ->val = e)
             return temp;
         temp = temp -> next;
     }
@@ -71,11 +71,11 @@ LinkedList SearchElem(LinkedList l, int e){
 LinkedList InsertElem(LinkedList L, int i, int e){
     //要插入的节点
     LinkedList temp = createEmptyLinkedList();
-    temp->data = e;
+    temp->val = e;
     // 之前的节点
     LinkedList p = createEmptyLinkedList();
     p = SearchElem(L, i);
-    if(p ->data == i){
+    if(p ->val == i){
         p->next = temp;
     }
     temp -> next = L -> next;
