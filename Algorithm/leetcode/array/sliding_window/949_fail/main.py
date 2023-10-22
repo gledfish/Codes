@@ -1,7 +1,7 @@
 '''
 Author: gledfish
 Date: 2023-10-20 16:51:06
-LastEditTime: 2023-10-20 20:25:29
+LastEditTime: 2023-10-20 20:41:18
 FilePath: \leetcode\sliding_window\949_fail\main.py
 Description: 
 你正在探访一家农场，农场从左到右种植了一排果树。这些树用一个整数数组 fruits 表示，其中 fruits[i] 是第 i 棵树上的水果 种类 。
